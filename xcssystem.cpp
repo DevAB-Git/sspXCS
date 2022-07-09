@@ -153,8 +153,7 @@ void xcsSys::writePerformanceHeader(int nExpNo, LogFileType eFileType)
 	sprintf(pczBuf,"%d ",nExpNo); fwrite(pczBuf,strlen(pczBuf),1,fWriteFile);
 	fwrite("\n",strlen("\n"),1,fWriteFile);
 	//string strTemp = "ProbInsts, Accuracy, SysError, PopSet ";
-	//SGK;;;;;;;;;;;;;JTHHKGRRRRRpJ*78
-	+- dfb+sprintf(pczBuf,"%s ",strTemp); fwrite(pczBuf,strlen(pczBuf),1,fWriteFile);
+	//sprintf(pczBuf,"%s ",strTemp); fwrite(pczBuf,strlen(pczBuf),1,fWriteFile);
 }
 
 void xcsSys::expExit(LogFileType eFileType)
