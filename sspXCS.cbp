@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="sspXCS" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="output/bin/Debug/sspXCS" prefix_auto="1" extension_auto="1" />
+				<Option object_output="output/obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="output/bin/Release/sspXCS" prefix_auto="1" extension_auto="1" />
+				<Option object_output="output/obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="xcsclassifierharness.cpp" />
+		<Unit filename="xcsclassifierharness.hpp" />
+		<Unit filename="xcsconfig.cpp" />
+		<Unit filename="xcsconfig.hpp" />
+		<Unit filename="xcsdefs.cpp" />
+		<Unit filename="xcsdefs.hpp" />
+		<Unit filename="xcsenvironment.cpp" />
+		<Unit filename="xcsenvironment.hpp" />
+		<Unit filename="xcsharness.cpp" />
+		<Unit filename="xcssystem.cpp" />
+		<Unit filename="xcssystem.hpp" />
+		<Unit filename="xcstime.cpp" />
+		<Unit filename="xcstime.hpp" />
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
