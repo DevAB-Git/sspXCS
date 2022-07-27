@@ -15,10 +15,12 @@ using namespace std;
 //main function
 int main(int argc, char** argv)
 {
-    xcsSys  stXcsSys;
+    //xcsSys  stXcsSys;
+    //Update parameters
     m_stGLoadConfig.parseargs(argc, argv);
     if(!m_stGLoadConfig.m_strConfigFile.empty())
         m_stGLoadConfig.loadConfigFromFile(m_stGLoadConfig.m_strConfigFile);
+    xcsSys  stXcsSys;
     //open the log files
     m_stGLogExec.OpenLogFiles();
 
